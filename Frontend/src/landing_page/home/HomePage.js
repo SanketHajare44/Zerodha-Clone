@@ -1,10 +1,10 @@
 import React from "react";
-import Awrads from "./Hero";
-import Awrads from "./Awards";
+import Hero from "./Hero";
+import Awards from "./Awards";
 import Stats from "./Stats";
 import Pricing from "./Pricing";
-import OpenAcount from "../OpenAcount";
 import Education from "./Education"
+import OpenAcount from "../OpenAcount";
 import Footer from "../Footer";
 
 function HomePage(){
@@ -12,7 +12,7 @@ function HomePage(){
     return (
         <>
             <Hero/>
-            <Awrads/>
+            <Awards/>
             <Stats/>
             <Pricing/>
             <Education/>
